@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800A5584E7E97DCA718BFDC0 /* Pods_InstaGroundUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BE313FB9E63EACA6620DD /* Pods_InstaGroundUp.framework */; };
 		811400901C768F4000F5153A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8114008F1C768F4000F5153A /* AppDelegate.swift */; };
-		811400921C768F4000F5153A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811400911C768F4000F5153A /* ViewController.swift */; };
 		811400951C768F4000F5153A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811400931C768F4000F5153A /* Main.storyboard */; };
 		811400971C768F4000F5153A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811400961C768F4000F5153A /* Assets.xcassets */; };
 		8114009A1C768F4000F5153A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811400981C768F4000F5153A /* LaunchScreen.storyboard */; };
+		81598F691C79A5FA00101F36 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F681C79A5FA00101F36 /* loginViewController.swift */; };
+		81598F6B1C79B7B300101F36 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F6A1C79B7B300101F36 /* homeViewController.swift */; };
+		81598F6D1C79BC9500101F36 /* uploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F6C1C79BC9500101F36 /* uploadViewController.swift */; };
+		81598F711C79BCB400101F36 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F701C79BCB400101F36 /* profileViewController.swift */; };
+		81598F751C7A519600101F36 /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F741C7A519600101F36 /* postCell.swift */; };
+		81598F7A1C7A52FB00101F36 /* instaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F791C7A52FB00101F36 /* instaPost.swift */; };
+		81598F7C1C7A5C0000101F36 /* UserMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81598F7B1C7A5C0000101F36 /* UserMedia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C93A6EC5013C2921AC05DB7 /* Pods-InstaGroundUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGroundUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaGroundUp/Pods-InstaGroundUp.debug.xcconfig"; sourceTree = "<group>"; };
 		8114008C1C768F4000F5153A /* InstaGroundUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaGroundUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8114008F1C768F4000F5153A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		811400911C768F4000F5153A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		811400941C768F4000F5153A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		811400961C768F4000F5153A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811400991C768F4000F5153A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8114009B1C768F4000F5153A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81598F681C79A5FA00101F36 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		81598F6A1C79B7B300101F36 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		81598F6C1C79BC9500101F36 /* uploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uploadViewController.swift; sourceTree = "<group>"; };
+		81598F701C79BCB400101F36 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		81598F741C7A519600101F36 /* postCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
+		81598F791C7A52FB00101F36 /* instaPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instaPost.swift; sourceTree = "<group>"; };
+		81598F7B1C7A5C0000101F36 /* UserMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMedia.swift; sourceTree = "<group>"; };
+		95A9A889B6C92E23FD941ACF /* Pods-InstaGroundUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGroundUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaGroundUp/Pods-InstaGroundUp.release.xcconfig"; sourceTree = "<group>"; };
+		F50BE313FB9E63EACA6620DD /* Pods_InstaGroundUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaGroundUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800A5584E7E97DCA718BFDC0 /* Pods_InstaGroundUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ED040A20EF57065CE3C82F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C93A6EC5013C2921AC05DB7 /* Pods-InstaGroundUp.debug.xcconfig */,
+				95A9A889B6C92E23FD941ACF /* Pods-InstaGroundUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3579A2CD84F134D56052E97C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50BE313FB9E63EACA6620DD /* Pods_InstaGroundUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		811400831C768F4000F5153A = {
 			isa = PBXGroup;
 			children = (
 				8114008E1C768F4000F5153A /* InstaGroundUp */,
 				8114008D1C768F4000F5153A /* Products */,
+				2ED040A20EF57065CE3C82F7 /* Pods */,
+				3579A2CD84F134D56052E97C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,44 @@
 		8114008E1C768F4000F5153A /* InstaGroundUp */ = {
 			isa = PBXGroup;
 			children = (
+				81598F761C7A52B200101F36 /* models */,
+				81598F731C7A517B00101F36 /* views */,
+				81598F671C79A09100101F36 /* viewcontrollers */,
 				8114008F1C768F4000F5153A /* AppDelegate.swift */,
-				811400911C768F4000F5153A /* ViewController.swift */,
 				811400931C768F4000F5153A /* Main.storyboard */,
 				811400961C768F4000F5153A /* Assets.xcassets */,
 				811400981C768F4000F5153A /* LaunchScreen.storyboard */,
 				8114009B1C768F4000F5153A /* Info.plist */,
 			);
 			path = InstaGroundUp;
+			sourceTree = "<group>";
+		};
+		81598F671C79A09100101F36 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				81598F681C79A5FA00101F36 /* loginViewController.swift */,
+				81598F6A1C79B7B300101F36 /* homeViewController.swift */,
+				81598F6C1C79BC9500101F36 /* uploadViewController.swift */,
+				81598F701C79BCB400101F36 /* profileViewController.swift */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		81598F731C7A517B00101F36 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				81598F741C7A519600101F36 /* postCell.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		81598F761C7A52B200101F36 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				81598F791C7A52FB00101F36 /* instaPost.swift */,
+				81598F7B1C7A5C0000101F36 /* UserMedia.swift */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8114009E1C768F4000F5153A /* Build configuration list for PBXNativeTarget "InstaGroundUp" */;
 			buildPhases = (
+				21990AB01B5498C7F2A7655C /* Check Pods Manifest.lock */,
 				811400881C768F4000F5153A /* Sources */,
 				811400891C768F4000F5153A /* Frameworks */,
 				8114008A1C768F4000F5153A /* Resources */,
+				F5E679D00A56B668934C95B7 /* Embed Pods Frameworks */,
+				3B908466CEB13D57DA46330F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +199,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21990AB01B5498C7F2A7655C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B908466CEB13D57DA46330F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaGroundUp/Pods-InstaGroundUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E679D00A56B668934C95B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaGroundUp/Pods-InstaGroundUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		811400881C768F4000F5153A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811400921C768F4000F5153A /* ViewController.swift in Sources */,
+				81598F751C7A519600101F36 /* postCell.swift in Sources */,
 				811400901C768F4000F5153A /* AppDelegate.swift in Sources */,
+				81598F711C79BCB400101F36 /* profileViewController.swift in Sources */,
+				81598F6D1C79BC9500101F36 /* uploadViewController.swift in Sources */,
+				81598F6B1C79B7B300101F36 /* homeViewController.swift in Sources */,
+				81598F691C79A5FA00101F36 /* loginViewController.swift in Sources */,
+				81598F7C1C7A5C0000101F36 /* UserMedia.swift in Sources */,
+				81598F7A1C7A52FB00101F36 /* instaPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +368,7 @@
 		};
 		8114009F1C768F4000F5153A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C93A6EC5013C2921AC05DB7 /* Pods-InstaGroundUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaGroundUp/Info.plist;
@@ -256,6 +380,7 @@
 		};
 		811400A01C768F4000F5153A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A9A889B6C92E23FD941ACF /* Pods-InstaGroundUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaGroundUp/Info.plist;
@@ -284,6 +409,7 @@
 				811400A01C768F4000F5153A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

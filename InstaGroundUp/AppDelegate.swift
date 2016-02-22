@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Initialize Parse
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "instagroundup"
+                configuration.server = "https://instagroundup.herokuapp.com/parse"
+                configuration.clientKey = "sunshine"
+            })
+        )
+        
+        
+        // Check for Persistence
+        if PFUser.currentUser() != nil{
+            // Set the Home Screen the default view controller
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("tabViewController") as! UITabBarController
+            vc.selectedIndex = 1
+            self.window?.rootViewController = vc
+        }
+        
         return true
     }
 
